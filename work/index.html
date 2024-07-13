@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Vite + Vue + TS</title>
+</head>
+
+<body>
+   <div id="app"></div>
+   <!-- <script src="https://webapi.amap.com/maps?v=1.4.15&key=8c1209dc36ef7924747aec4a7c5fb11a"></script> -->
+   <script type="module" src="/src/main.ts">
+      window._AMapSecurityConfig = {
+         securityJsCode: '8c1209dc36ef7924747aec4a7c5fb11a', // 你的密钥
+      }
+   </script>
+</body>
+
+</html>
